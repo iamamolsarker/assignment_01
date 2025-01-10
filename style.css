@@ -190,3 +190,24 @@ body{
     color: #0E0E0E;
     cursor: pointer;
 }
+/* Quote Section Styles */
+.qoute-container{
+    background-color: #ffffff;
+    border: 1px solid #0d0d0d26;
+    border-radius: 16px;
+    padding: 50px 25px;
+    margin-top: 32px;
+    background-image: url(images/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 25px 25px;
+}
+.author-name{
+    margin-top: 15px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0e0e0ecc;
+}
+.author-title{
+    color: #0d0d0d99;
+}
