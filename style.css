@@ -38,6 +38,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.flex-gap{
+    gap: 24px;
+}
 
 /* utility class */
 
@@ -55,6 +58,7 @@ body{
     color: #0e0e0ecc;
     font-size: 20px;
     font-weight: 700;
+    margin: 15px 0;
 }
 .btn-primary{
     color: #ffffff;
@@ -106,4 +110,25 @@ body{
 }
 .hero-img{
     width: 100%;
+}
+/* Pillars Styles */
+#pillar-section{
+    margin: 80px 0;
+}
+.pillar-box-container{
+    align-items: stretch;
+}
+.pillar-title{
+    color: #0E0E0E;
+    margin-bottom: 32px;
+}
+.box{
+    padding: 24px;
+    background-color: #ffffff;
+    border: 1px solid #0d0d0d26;
+    border-radius: 16px;
+    flex: 1;
+}
+.box-text{
+    color: #0d0d0db3;
 }
