@@ -63,11 +63,12 @@ body{
     background-color: #006A50;
     padding: 15px 30px;
     text-decoration: none;
+    display: inline-block;
     transition: all .5s ease-in-out;
 }
 .btn-primary:hover{
-    color: #0E0E0E;
-    background-color: #C6E4D6;
+    color: #ffffff;
+    background-color: #5490F5;
     cursor: pointer;
 }
 .other-title{
@@ -82,3 +83,20 @@ body{
 }
 
 /* hero Section Styles */
+.hero-container{
+    background-color: #C6E4D6;
+    padding: 80px 60px;
+    border-radius: 24px;
+}
+.hero-sub-title{
+    color: #0d0d0d80;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.hero-title{
+    color: #0E0E0E;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
