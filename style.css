@@ -229,9 +229,17 @@ article.news-card{
     border-radius: 24px;
     border: 1px solid #0d0d0d1a;
 }
+article .image-container{
+    overflow: hidden;
+    border-radius: 24px;
+}
 article .featured-image{
     width: 100%;
-    border-radius: 24px;
+    display: block;
+    transition: all .5s ease-in-out;
+}
+.news-card:hover .featured-image{
+    transform: scale(1.1);
 }
 .news-container{
     flex: 1;
