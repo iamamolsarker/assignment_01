@@ -45,6 +45,7 @@ body{
 /* utility class */
 
 .primary-text{
+    color: #0d0d0db3;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -52,13 +53,13 @@ body{
 .secondary-title{
     font-size: 40px;
     font-weight: 700;
+    margin-bottom: 24px;
     
 }
 .sub-title{
     color: #0e0e0ecc;
     font-size: 20px;
     font-weight: 700;
-    margin: 15px 0;
 }
 .btn-primary{
     color: #ffffff;
@@ -131,4 +132,31 @@ body{
 }
 .box-text{
     color: #0d0d0db3;
+}
+/* Vision of future Styles */
+.vision-text-container{
+    margin-bottom: 32px;
+}
+.vision-card-container{
+    align-items: stretch;
+}
+.card{
+    padding: 32px;
+    border-radius: 16px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1;
+}
+.card .card-title{
+    margin-bottom: 15px;
+}
+
+.card-1{
+    background-color: #5691f533;
+}
+.card-2{
+    background-color: #5691f533;
+}
+.card-3{
+    background-color: #5691f533;
 }
