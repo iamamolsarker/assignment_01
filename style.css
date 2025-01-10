@@ -38,6 +38,9 @@ body{
     justify-content: center;
     align-items: center;
 }
+.flex-align-start{
+    align-items: flex-start;
+}
 .flex-gap{
     gap: 24px;
 }
