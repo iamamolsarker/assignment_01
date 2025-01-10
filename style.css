@@ -61,14 +61,15 @@ body{
     font-size: 18px;
     font-weight: 600;
     background-color: #006A50;
-    padding: 15px 30px;
+    padding: 17px 35px;
     text-decoration: none;
+    border-radius: 8px;
     display: inline-block;
     transition: all .5s ease-in-out;
 }
 .btn-primary:hover{
-    color: #ffffff;
-    background-color: #5490F5;
+    color: #0E0E0E;
+    background-color: #5AE862;
     cursor: pointer;
 }
 .other-title{
@@ -88,6 +89,9 @@ body{
     padding: 80px 60px;
     border-radius: 24px;
 }
+.hero-text-container{
+    flex: 1;
+}
 .hero-sub-title{
     color: #0d0d0d80;
     font-size: 24px;
@@ -99,4 +103,7 @@ body{
     font-size: 56px;
     font-weight: 700;
     margin-bottom: 24px;
+}
+.hero-img{
+    width: 100%;
 }
