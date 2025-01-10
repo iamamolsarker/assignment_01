@@ -147,11 +147,7 @@ body{
     padding: 32px;
     border-radius: 16px;
     justify-content: space-between;
-    align-items: flex-start;
     flex: 1;
-}
-.card-content{
-    align-items: flex-start;
 }
 .card .card-title{
     margin-top: 25px;
