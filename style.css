@@ -248,3 +248,29 @@ article .featured-image{
     margin-top: 20px;
     padding: 13px 26px;
 }
+/* Donation styles */
+.donation-container{
+    align-items: stretch;
+    margin: 32px 0;
+}
+.amount-box{
+    flex: 1;
+    padding: 40px;
+    background-color: white;
+    border: 1px solid #0d0d0d26;
+    border-radius: 16px;
+    transition: all .5s ease-in-out;
+}
+.amount-box:hover{
+    background-color: #C6E4D6;
+    border: 1px solid #09A15C;
+    cursor: pointer;
+}
+.amount-box-active{
+    background-color: #C6E4D6;
+    border: 1px solid #09A15C;
+}
+.amount-box .secondary-title{
+    margin-bottom: 0;
+    color: #0d0d0dcc;
+}
