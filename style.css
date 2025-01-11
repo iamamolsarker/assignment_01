@@ -100,7 +100,12 @@ body{
     font-size: 32px;
     font-weight: 700;
 }
-
+/* Nav Style */
+.nav-inner-container{
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+}
 /* hero Section Styles */
 .hero-container{
     background-color: #C6E4D6;
@@ -295,6 +300,9 @@ article .featured-image{
     border: 1px solid #0d0d0d26;
     border-radius: 5px;
     margin-bottom: 30px;
+}
+.donation-form-container input[type="text"]:focus{
+    outline-color: #006A50;
 }
 .donation-form-container input[type="text"]::placeholder{
     opacity: .3;
