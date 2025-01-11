@@ -347,3 +347,19 @@ article .featured-image{
     display: inline-block;
     width: 23%;
 }
+/* Footer styles */
+footer{
+    background-color: #ffffff;
+    padding: 50px;
+}
+.footer-container{
+    margin: auto;
+}
+.divider{
+    max-width: 1100px;
+    margin: 32px auto;
+    border-bottom: 1px solid hsla(0, 0%, 5%, 0.1);
+}
+.social-icon-container img{
+    margin: 0 5px;
+}
