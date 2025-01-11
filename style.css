@@ -76,13 +76,15 @@ body{
     background-color: #006A50;
     padding: 17px 35px;
     text-decoration: none;
+    border: 1px solid #006A50;
     border-radius: 8px;
     display: inline-block;
     transition: all .5s ease-in-out;
 }
 .btn-primary:hover{
     color: #0E0E0E;
-    background-color: #5AE862;
+    background-color: #C6E4D6;
+    border: 1px solid #09A15C;
     cursor: pointer;
 }
 .other-title{
@@ -273,4 +275,25 @@ article .featured-image{
 .amount-box .secondary-title{
     margin-bottom: 0;
     color: #0d0d0dcc;
+}
+.donation-form-container{
+    text-align: center;
+}
+.donation-form-container input[type="text"]{
+    display: block;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #ffffff;
+    border: none;
+    border: 1px solid #0d0d0d26;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.donation-form-container input[type="text"]::placeholder{
+    opacity: .3;
+    color: #0E0E0E;
 }
