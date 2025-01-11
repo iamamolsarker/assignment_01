@@ -49,6 +49,9 @@ body{
 .flex-gap-24{
     gap: 24px;
 }
+.text-center{
+    text-align: center;
+}
 
 /* utility class */
 
@@ -296,4 +299,43 @@ article .featured-image{
 .donation-form-container input[type="text"]::placeholder{
     opacity: .3;
     color: #0E0E0E;
+}
+/* Newsletter Styels */
+#newsletter-section{
+    margin: 80px 0;
+}
+.newsletter-container{
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 24px;
+    flex: 1;
+}
+.inner-newsletter-container{
+    width: 750px;
+}
+.inner-newsletter-container form{
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 100%;
+    white-space: nowrap;
+    margin: 24px 0;
+}
+.newsletter-email-input{
+    background-color: #ffffff;
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    width: calc(100% - 23%);
+}
+.newsletter-email-input:focus{
+    outline: none;
+}
+.newsletter-btn{
+    border-radius: 0 8px 8px 0;
+    display: inline-block;
+    width: 23%;
 }
