@@ -106,6 +106,10 @@ body{
     align-items: center;
     margin: 30px auto;
 }
+.nav-btn{
+    background-color: transparent;
+    color: #006A50;
+}
 /* hero Section Styles */
 .hero-container{
     background-color: #C6E4D6;
